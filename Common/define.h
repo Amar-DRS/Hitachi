@@ -15,6 +15,7 @@
 #define DELETEVALUE(keyname)        [[NSUserDefaults standardUserDefaults] removeObjectForKey:keyname]
 
 
+
 #define ALBUM_NAME  @"Hitachi"
 #define ALBUM_IDENTIFIER  @"albumIdentifier"
 #define CSAsset_IDENTIFIER  @"assetIdentifier"
