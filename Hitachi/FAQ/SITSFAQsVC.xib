@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SITSFAQsVC">
+            <connections>
+                <outlet property="FAQTXW" destination="IQd-xz-qoR" id="T7e-a6-qOB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="isC-Rh-rHg">
+                    <rect key="frame" x="0.0" y="58" width="375" height="609"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Db-y7-mAD">
+                    <rect key="frame" x="0.0" y="58" width="375" height="31"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="2uU-6m-rs5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2x7-ZL-3ai">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="hKv-pX-22l"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Back.png" translatesAutoresizingMaskIntoConstraints="NO" id="HgH-HU-m3b">
+                    <rect key="frame" x="314" y="11" width="54" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="HKk-GF-4xG"/>
+                        <constraint firstAttribute="width" constant="54" id="YBm-oj-9YD"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HITACHI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WM-gS-dfK">
+                    <rect key="frame" x="3" y="9" width="137" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="1r5-vd-cFL"/>
+                        <constraint firstAttribute="width" constant="137" id="af1-cf-I7I"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.97025085850000004" green="0.99504010409999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFa-Nq-Zys">
+                    <rect key="frame" x="293.5" y="5.5" width="75" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="BackAct:" destination="-1" eventType="touchUpInside" id="Nfg-BD-bCg"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IQd-xz-qoR">
+                    <rect key="frame" x="0.0" y="89" width="375" height="578"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <mutableString key="text">Frequently Asked Questions
+Can I change the term of my loan to reduce my monthly payments?
+Yes. Once you’ve been accepted, before you sign for your Hitachi Personal Finance loan, you can reduce your monthly payments by increasing the term of your loan.
+
+However, it is worth keeping in mind that extending the term of the loan will increase the overall amount payable.
+
+Can I increase my monthly payments to reduce the term of my loan?                              Although you can’t change the amount of your fixed monthly payment, you can make overpayments whenever you want and even settle your loan early with no additional charges, which will reduce the length of your loan term.
+Do I need to complete a paper application form?                    If you apply online and your loan is accepted, you can e-sign your application form online meaning there is no need to complete a paper application. </mutableString>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="IQd-xz-qoR" secondAttribute="trailing" id="02U-qQ-Rfm"/>
+                <constraint firstItem="isC-Rh-rHg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="61s-I5-0Vh"/>
+                <constraint firstAttribute="bottom" secondItem="isC-Rh-rHg" secondAttribute="bottom" id="81z-3R-gcB"/>
+                <constraint firstItem="IQd-xz-qoR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Beb-Sd-W5H"/>
+                <constraint firstItem="8WM-gS-dfK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="9" id="CC6-Rl-kCa"/>
+                <constraint firstItem="4Db-y7-mAD" firstAttribute="top" secondItem="2x7-ZL-3ai" secondAttribute="bottom" id="Duu-TU-02f"/>
+                <constraint firstItem="8WM-gS-dfK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="3" id="EW7-f6-MnN"/>
+                <constraint firstItem="4Db-y7-mAD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FIx-Ew-Aog"/>
+                <constraint firstAttribute="bottom" secondItem="IQd-xz-qoR" secondAttribute="bottom" id="Jgm-r5-AWX"/>
+                <constraint firstItem="HgH-HU-m3b" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="11" id="MJm-ti-Y3o"/>
+                <constraint firstItem="isC-Rh-rHg" firstAttribute="top" secondItem="2x7-ZL-3ai" secondAttribute="bottom" id="OBH-xf-IXQ"/>
+                <constraint firstAttribute="trailing" secondItem="HgH-HU-m3b" secondAttribute="trailing" constant="7" id="TAT-rV-5Fi"/>
+                <constraint firstAttribute="trailing" secondItem="4Db-y7-mAD" secondAttribute="trailing" id="daV-dn-WR5"/>
+                <constraint firstAttribute="trailing" secondItem="2x7-ZL-3ai" secondAttribute="trailing" id="fBg-db-FeX"/>
+                <constraint firstItem="IQd-xz-qoR" firstAttribute="top" secondItem="4Db-y7-mAD" secondAttribute="bottom" id="gV7-xv-8FV"/>
+                <constraint firstItem="2x7-ZL-3ai" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="guT-85-g7c"/>
+                <constraint firstAttribute="trailing" secondItem="isC-Rh-rHg" secondAttribute="trailing" id="kc0-yb-c04"/>
+                <constraint firstItem="2x7-ZL-3ai" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="n4G-Sz-N43"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Back.png" width="133" height="68"/>
+        <image name="Background.png" width="1242" height="2208"/>
+    </resources>
+</document>
