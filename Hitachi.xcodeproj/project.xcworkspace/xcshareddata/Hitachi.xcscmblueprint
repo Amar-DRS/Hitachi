@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B2E688826E3A67FDB5BAB08891A5746BEEAB0CEC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DBB58530624543AE86153317D7F03F91FDB56BF9" : 9223372036854775807,
+    "B2E688826E3A67FDB5BAB08891A5746BEEAB0CEC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EBE6A747-69EB-4DDB-864D-F6D11CE79609",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DBB58530624543AE86153317D7F03F91FDB56BF9" : "",
+    "B2E688826E3A67FDB5BAB08891A5746BEEAB0CEC" : "Hitachi\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hitachi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hitachi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Amar-DRS\/Hitachi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2E688826E3A67FDB5BAB08891A5746BEEAB0CEC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Amar-DRS\/Repo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBB58530624543AE86153317D7F03F91FDB56BF9"
+    }
+  ]
+}
