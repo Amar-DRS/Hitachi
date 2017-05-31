@@ -23,16 +23,15 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="isC-Rh-rHg">
                     <rect key="frame" x="0.0" y="58" width="375" height="609"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Db-y7-mAD">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyT-Sg-v3f">
                     <rect key="frame" x="0.0" y="58" width="375" height="31"/>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="31" id="2uU-6m-rs5"/>
+                        <constraint firstAttribute="height" constant="31" id="8LD-Zb-AbN"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="highlightedColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2x7-ZL-3ai">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
@@ -70,15 +69,12 @@
                 </button>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IQd-xz-qoR">
                     <rect key="frame" x="0.0" y="89" width="375" height="578"/>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <mutableString key="text">Frequently Asked Questions
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">Frequently Asked Questions
 Can I change the term of my loan to reduce my monthly payments?
 Yes. Once you’ve been accepted, before you sign for your Hitachi Personal Finance loan, you can reduce your monthly payments by increasing the term of your loan.
 
-However, it is worth keeping in mind that extending the term of the loan will increase the overall amount payable.
-
-Can I increase my monthly payments to reduce the term of my loan?                              Although you can’t change the amount of your fixed monthly payment, you can make overpayments whenever you want and even settle your loan early with no additional charges, which will reduce the length of your loan term.
-Do I need to complete a paper application form?                    If you apply online and your loan is accepted, you can e-sign your application form online meaning there is no need to complete a paper application. </mutableString>
+However, it is worth keeping in mind that extending the term of the loan will increase the overall amount payable.</string>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -87,24 +83,25 @@ Do I need to complete a paper application form?                    If you apply 
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="IQd-xz-qoR" secondAttribute="trailing" id="02U-qQ-Rfm"/>
+                <constraint firstAttribute="trailing" secondItem="hyT-Sg-v3f" secondAttribute="trailing" id="2MW-Ma-o9o"/>
                 <constraint firstItem="isC-Rh-rHg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="61s-I5-0Vh"/>
                 <constraint firstAttribute="bottom" secondItem="isC-Rh-rHg" secondAttribute="bottom" id="81z-3R-gcB"/>
                 <constraint firstItem="IQd-xz-qoR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Beb-Sd-W5H"/>
                 <constraint firstItem="8WM-gS-dfK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="9" id="CC6-Rl-kCa"/>
-                <constraint firstItem="4Db-y7-mAD" firstAttribute="top" secondItem="2x7-ZL-3ai" secondAttribute="bottom" id="Duu-TU-02f"/>
                 <constraint firstItem="8WM-gS-dfK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="3" id="EW7-f6-MnN"/>
-                <constraint firstItem="4Db-y7-mAD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FIx-Ew-Aog"/>
                 <constraint firstAttribute="bottom" secondItem="IQd-xz-qoR" secondAttribute="bottom" id="Jgm-r5-AWX"/>
+                <constraint firstItem="hyT-Sg-v3f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="M4G-wH-l9k"/>
                 <constraint firstItem="HgH-HU-m3b" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="11" id="MJm-ti-Y3o"/>
                 <constraint firstItem="isC-Rh-rHg" firstAttribute="top" secondItem="2x7-ZL-3ai" secondAttribute="bottom" id="OBH-xf-IXQ"/>
+                <constraint firstItem="IQd-xz-qoR" firstAttribute="top" secondItem="hyT-Sg-v3f" secondAttribute="bottom" id="RwV-qY-AAP"/>
                 <constraint firstAttribute="trailing" secondItem="HgH-HU-m3b" secondAttribute="trailing" constant="7" id="TAT-rV-5Fi"/>
-                <constraint firstAttribute="trailing" secondItem="4Db-y7-mAD" secondAttribute="trailing" id="daV-dn-WR5"/>
                 <constraint firstAttribute="trailing" secondItem="2x7-ZL-3ai" secondAttribute="trailing" id="fBg-db-FeX"/>
-                <constraint firstItem="IQd-xz-qoR" firstAttribute="top" secondItem="4Db-y7-mAD" secondAttribute="bottom" id="gV7-xv-8FV"/>
                 <constraint firstItem="2x7-ZL-3ai" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="guT-85-g7c"/>
+                <constraint firstItem="hyT-Sg-v3f" firstAttribute="top" secondItem="2x7-ZL-3ai" secondAttribute="bottom" id="hjG-9x-pdi"/>
                 <constraint firstAttribute="trailing" secondItem="isC-Rh-rHg" secondAttribute="trailing" id="kc0-yb-c04"/>
                 <constraint firstItem="2x7-ZL-3ai" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="n4G-Sz-N43"/>
             </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
     </objects>
     <resources>

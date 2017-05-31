@@ -84,7 +84,6 @@
     }
     POPCell.selectionStyle=UITableViewCellSelectionStyleNone;
     [POPCell.POPFirBTN addTarget:self action:@selector(POPFirAction:) forControlEvents:UIControlEventTouchUpInside];
-    [POPCell.POPSecBTN addTarget:self action:@selector(POPSecAction:) forControlEvents:UIControlEventTouchUpInside];
     
     POPCell.selectionStyle=UITableViewCellSelectionStyleNone;
     POPCell.POPFirIMG.image=nil;
